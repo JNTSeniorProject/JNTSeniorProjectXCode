@@ -56,17 +56,7 @@ class AddEventViewController: UIViewController {
     
     
     
-    @IBAction func addTitle(_ sender: Any) {
-        
-        userTitle = titleTextField.text!
-        
-    }
-    
-    @IBAction func addDescription(_ sender: Any) {
-        
-        userDescription = descriptionTextField.text!
-        
-    }
+
     
     
     
@@ -74,6 +64,18 @@ class AddEventViewController: UIViewController {
         
         myDatePicker.isHidden = false
     }
+    
+    
+    @IBAction func titleTextFieldChanged(_ sender: Any) {
+        userTitle = titleTextField.text!
+    }
+    
+    
+    @IBAction func descriptionTextFieldChanged(_ sender: Any) {
+        userDescription = descriptionTextField.text!
+    }
+    
+    
     
     
     
@@ -146,6 +148,8 @@ class AddEventViewController: UIViewController {
         }
         else{
             addEvent(title: userTitle!, startDate: myDatePicker.date, endDate: myDatePicker.date, description: userDescription!)
+            
+            self.dismiss(animated: true, completion: nil)
             
         }
         

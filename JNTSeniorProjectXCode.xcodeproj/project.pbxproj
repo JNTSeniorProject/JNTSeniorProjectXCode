@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59D11198F4474E6C563A57C1 /* Pods_JNTSeniorProjectXCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F62A72F2FD6C61678F336 /* Pods_JNTSeniorProjectXCode.framework */; };
+		5F1BDCA12051A751005199C9 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1BDCA02051A751005199C9 /* AddScheduleViewController.swift */; };
 		CE14D6682043A7A700AD5C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14D6672043A7A700AD5C9F /* AppDelegate.swift */; };
 		CE14D66A2043A7A700AD5C9F /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14D6692043A7A700AD5C9F /* AddEventViewController.swift */; };
 		CE14D66C2043A7A700AD5C9F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14D66B2043A7A700AD5C9F /* SecondViewController.swift */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A37D458FE92042A35507D26 /* Pods-JNTSeniorProjectXCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNTSeniorProjectXCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNTSeniorProjectXCode/Pods-JNTSeniorProjectXCode.debug.xcconfig"; sourceTree = "<group>"; };
+		5F1BDCA02051A751005199C9 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		746F62A72F2FD6C61678F336 /* Pods_JNTSeniorProjectXCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNTSeniorProjectXCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE14D6642043A7A700AD5C9F /* JNTSeniorProjectXCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNTSeniorProjectXCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE14D6672043A7A700AD5C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE14D6692043A7A700AD5C9F /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		CE14D6852043A7A800AD5C9F /* JNTSeniorProjectXCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNTSeniorProjectXCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE14D6892043A7A800AD5C9F /* JNTSeniorProjectXCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNTSeniorProjectXCodeUITests.swift; sourceTree = "<group>"; };
 		CE14D68B2043A7A800AD5C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D929FDD95FF7EF71B2BE57D3 /* Pods-JNTSeniorProjectXCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNTSeniorProjectXCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNTSeniorProjectXCode/Pods-JNTSeniorProjectXCode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D11198F4474E6C563A57C1 /* Pods_JNTSeniorProjectXCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B5140C538471EFC887B2AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				746F62A72F2FD6C61678F336 /* Pods_JNTSeniorProjectXCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE14D65B2043A7A700AD5C9F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,8 @@
 				CE14D67D2043A7A800AD5C9F /* JNTSeniorProjectXCodeTests */,
 				CE14D6882043A7A800AD5C9F /* JNTSeniorProjectXCodeUITests */,
 				CE14D6652043A7A700AD5C9F /* Products */,
+				CF45DCF8D5D390FDFA80152C /* Pods */,
+				5B5140C538471EFC887B2AF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +119,7 @@
 				CE14D6672043A7A700AD5C9F /* AppDelegate.swift */,
 				CE14D6692043A7A700AD5C9F /* AddEventViewController.swift */,
 				CE14D66B2043A7A700AD5C9F /* SecondViewController.swift */,
+				5F1BDCA02051A751005199C9 /* AddScheduleViewController.swift */,
 				CE14D66D2043A7A700AD5C9F /* Main.storyboard */,
 				CE14D6702043A7A700AD5C9F /* Assets.xcassets */,
 				CE14D6722043A7A700AD5C9F /* LaunchScreen.storyboard */,
@@ -128,6 +146,15 @@
 			path = JNTSeniorProjectXCodeUITests;
 			sourceTree = "<group>";
 		};
+		CF45DCF8D5D390FDFA80152C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A37D458FE92042A35507D26 /* Pods-JNTSeniorProjectXCode.debug.xcconfig */,
+				D929FDD95FF7EF71B2BE57D3 /* Pods-JNTSeniorProjectXCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE14D68E2043A7A800AD5C9F /* Build configuration list for PBXNativeTarget "JNTSeniorProjectXCode" */;
 			buildPhases = (
+				01E22673C523B0AF2D3810ED /* [CP] Check Pods Manifest.lock */,
 				CE14D6602043A7A700AD5C9F /* Sources */,
 				CE14D6612043A7A700AD5C9F /* Frameworks */,
 				CE14D6622043A7A700AD5C9F /* Resources */,
+				DEA508A7C6538982585D238D /* [CP] Embed Pods Frameworks */,
+				98D1BC3880D0EC5B8427C8B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +287,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01E22673C523B0AF2D3810ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JNTSeniorProjectXCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98D1BC3880D0EC5B8427C8B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNTSeniorProjectXCode/Pods-JNTSeniorProjectXCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA508A7C6538982585D238D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JNTSeniorProjectXCode/Pods-JNTSeniorProjectXCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNTSeniorProjectXCode/Pods-JNTSeniorProjectXCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE14D6602043A7A700AD5C9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +349,7 @@
 				CE14D66C2043A7A700AD5C9F /* SecondViewController.swift in Sources */,
 				CE14D6682043A7A700AD5C9F /* AppDelegate.swift in Sources */,
 				CE14D66A2043A7A700AD5C9F /* AddEventViewController.swift in Sources */,
+				5F1BDCA12051A751005199C9 /* AddScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +513,7 @@
 		};
 		CE14D68F2043A7A800AD5C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A37D458FE92042A35507D26 /* Pods-JNTSeniorProjectXCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +528,7 @@
 		};
 		CE14D6902043A7A800AD5C9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D929FDD95FF7EF71B2BE57D3 /* Pods-JNTSeniorProjectXCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

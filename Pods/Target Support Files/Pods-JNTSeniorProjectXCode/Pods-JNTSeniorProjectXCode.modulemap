@@ -1,0 +1,6 @@
+framework module Pods_JNTSeniorProjectXCode {
+  umbrella header "Pods-JNTSeniorProjectXCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
