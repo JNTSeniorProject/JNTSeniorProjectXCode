@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/deannasequeira/Documents/JNTSeniorProjectXCode/JNTSeniorProjectXCode/DateCellTableViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/deannasequeira/Documents/JNTSeniorProjectXCode/JNTSeniorProjectXCode/AddSchedViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:JNTSeniorProjectXCode.xcodeproj">
    </FileRef>
    <FileRef
